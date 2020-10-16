@@ -73,7 +73,7 @@ import edu.umd.cs.findbugs.util.ClassPathUtil;
 public class ClassPathBuilder implements IClassPathBuilder {
     private static final boolean VERBOSE = SystemProperties.getBoolean("findbugs2.builder.verbose");
 
-    private static final boolean DEBUG = VERBOSE || SystemProperties.getBoolean("findbugs2.builder.debug");
+    private static final boolean DEBUG = true;
 
     private static final boolean NO_PARSE_CLASS_NAMES = SystemProperties.getBoolean("findbugs2.builder.noparseclassnames");
 
