@@ -167,7 +167,7 @@ public class FindBugsTask extends AbstractFindBugsTask {
 
     private boolean noClassOk;
 
-    private boolean nested = true;
+    private boolean nested = false;
 
     private boolean setExitCode = true;
 
